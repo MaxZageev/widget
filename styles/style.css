@@ -40,6 +40,7 @@
     text-decoration: none;
     border: none;
     cursor: pointer;
+    transition: transform,box-shadow 1s ;
 }
 .menu-burger-button {
     background-image: url("../img/burgerexit.svg");
@@ -157,4 +158,9 @@ footer{
 
 .setings__item--active {
     color: #7E7E82;
+}
+
+.round-icon:hover {
+    box-shadow: rgb(38, 57, 77) 0px 10px 15px -5px;
+    transform: scale(1.2);
 }
